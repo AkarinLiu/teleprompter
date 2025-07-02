@@ -1,7 +1,43 @@
-# Tauri + Vanilla TS
+# Teleprompter
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Typescript.
+A simple teleprompter application for smooth and customizable script reading.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- Adjustable scrolling speed
+- Customizable font size and colors
+- Pause, resume, and reset controls
+- Easy-to-use interface
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/AkarinLiu/teleprompter.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd teleprompter
+    ```
+3. Install dependencies:
+    ```bash
+    yarn
+    ```
+
+## Build
+
+### Build Desktop Application
+
+```bash
+yarn tauri build
+```
+
+### Build Mobile Application
+
+```bash
+yarn tauri android build
+```
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
