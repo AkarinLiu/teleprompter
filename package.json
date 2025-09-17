@@ -1,7 +1,7 @@
 {
   "name": "teleprompter",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -20,5 +20,9 @@
     "@types/node": "^24.0.10",
     "typescript": "~5.6.2",
     "vite": "^6.0.3"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/AkarinLiu/teleprompter.git",
+  "author": "AkarinLiu <akarinliu@outlook.com>",
+  "license": "MIT"
 }
